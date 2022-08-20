@@ -22,4 +22,6 @@ wordcloud.generate_from_frequencies(frequencies=d)
 plt.figure()
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
+#a bar graph to show the coefficient disparity
+nomin.plot.bar(x='Team')
 plt.show()
